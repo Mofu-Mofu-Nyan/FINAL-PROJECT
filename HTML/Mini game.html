@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<!-- CSS and style -->
+			<link rel = "stylesheet" href="../CSS/style.css">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+	        <title>Rulebook</title>
+			<meta charset="UTF-8">
+			<meta name="description" content="Rulebook of Mofu Mofu Nyan">
+			<meta name="keywords" content="HTML, CSS, JavaScript, meta tag, tag reference, rulebook, rules, enjoy, maid cafe, kawaii">
+			<meta name="author" content="Ricardo Abraham Cruz Liga (x23127856)">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+</head>
+<body id="body">
+    <nav class="nav_bar" id="nav_bar">
+        <header>
+            <div class="nav_text">
+                <span class="nav_logo">
+                    <img class="logo" src="../Gallery/logo1.png" alt="Mofu Mofu">  
+                </span>
+                <span class="web_name">Mofu Nyan ~( ˘▾˘~)</span>
+            </div>
+            <ion-icon id="i_menu" class="i_menu" name="menu-outline"></ion-icon> <!--icons from external web-->
+         </header>
+         <div class="nav_listmenu">
+            <ul>
+                <li class="nav_homepage">
+                    <a href="../index.html"><ion-icon class="icons" name="storefront-outline"></ion-icon></a>
+                    <a class="a1" href="../index.html">
+                        Homepage
+                    </a>
+                </li>
+                <li class="nav_info">
+                    <a href="./Where to Find Us.html"><ion-icon class="icons" name="information-outline"></ion-icon></a>
+                    <a class="a1" href="./Where to Find Us.html">
+                        Information
+                    </a>
+                </li>
+                <li class="nav_maids">
+                    <a href="./Maidlist.html"><ion-icon class="icons" name="heart-outline"></ion-icon></a>
+                    <a class="a1" href="./Maidlist.html">
+                        Maids
+                    </a>
+                </li>
+                <li class="nav_menu">
+                    <a href="./Menu.html"><ion-icon class="icons" name="ice-cream-outline"></ion-icon>
+                    <a class="a1" href="./Menu.html">
+                        Menu
+                    </a>
+                </li>
+                <li class="nav_price">
+                    <a href="./PricesAndPackages.html"><ion-icon class="icons" name="cash-outline"></ion-icon></a>
+                    <a class="a1" href="./PricesAndPackages.html">
+                        Prices and Packages
+                    </a>
+                </li>
+                <li class="nav_resev">
+                    <a href="./reservation.html"><ion-icon class="icons" name="calendar-outline"></ion-icon></a>
+                    <a class="a1" href="./reservation.html">
+                        Reservations
+                    </a>
+                </li>
+                <li class="nav_game">
+                    <a href="./Mini game.html"><ion-icon class="icons" name="game-controller-outline"></ion-icon></a>
+                    <a class="a1" href="./Mini game.html">
+                        MiniGame
+                    </a>
+                </li>
+                <li class="nav_rulebook">
+                    <a href="./Rulebook.html"><ion-icon class="icons" name="book-outline"></ion-icon></a>
+                    <a class="a1" href="./Rulebook.html">
+                        Rulebook
+                    </a>
+                </li>
+            </ul>
+         </div>
+    </nav> 
+    <div class="contain_all" id="move-content">
+        <div class="Syamil">
+            
+            
+
+            <div class="p_tittle">
+                <h1> ~( ˘▾˘~) Let's Play (~‾⌣‾)~ </h1>
+                <h2> Ahhh the good ol' Snake game 🐍 Use the arrow keys on your keyboard to move the snake around &#x2190 &#x2191 &#x2192 &#x2193</h2>
+            </div>
+            
+            <div class="contain_sya">
+                <div class="wrapper">
+                
+                    <div class="game-details">
+                        <span class="score">Score: 0</span>
+                        <span class="high-score">High Score: 0</span>
+                    </div>
+                    <div class="play-board"></div>
+            
+                    <div class="controls">
+                            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+                            <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+                            <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+                    </div>
+                
+                </div>
+            </div>
+    
+    
+    
+            <video id="syamuVideo"
+            autoplay loop muted
+            poster="../Images/videobgposter.webp">
+            <source src="../Videos/gamebgvideo.mp4" type="video/mp4"> <!-- Gamulinskii, O. (2021) An Animated Video of Landscape Free Stock Video Footage, Royalty-Free 4K &amp; HD Video Clip. Pexels. Available at: https://www.pexels.com/video/an-animated-video-of-landscape-8879031/ (Accessed: 09 December 2023). -->
+            Your browser does not support HTML5 video.
+            </video>
+            
+            <audio id="backgroundMusic" loop>
+            <source src="../Music/videogamebgmusic.mp3" type="audio/mp3"> <!-- (2023) Pixabay.com - Video games 8 bit arcade [Preprint]. Pixabay. Available at: https://pixabay.com/music/video-games-8-bit-arcade-138828/ (Accessed: 09 December 2023). -->
+            Your browser does not support the audio tag.
+            </audio>
+        
+            <audio id="eatSound" src="../Music/eatingsound.mp3"></audio> <!-- (2021) Pixabay.com - Sound Effects : Game Over Arcade [Preprint]. Available at: https://pixabay.com/sound-effects/game-over-arcade-6435/ (Accessed: 09 December 2023). -->
+            <audio id="gameOverSound" src="../Music/gameoversound.mp3"></audio> <!-- (2022) Pixabay.com - Sound Effects : Eating Sound Effect [Preprint]. Available at: https://pixabay.com/sound-effects/eating-sound-effect-36186/ (Accessed: 09 December 2023). -->
+        
+
+        
+            
+            
+            
+                <button id="syamuButton" onclick="toggleVideo()">Pause Video</button>
+                <button id="musicButton" onclick="toggleMusic()">Play Music</button>
+
+            <footer class="footer">
+                    <div class="foot_logo">
+                    <img class="logo" src="../Gallery/logo1.png" alt="logo">
+                    <p>Mofu Mofu Nyan</p>
+                    <p>© 2023 Web Design Project, Team G</p>
+                
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		<script defer src="../JavaScript/SyamilScript.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="../JavaScript/CrisScript.js"></script>
+</body>
+</html>
