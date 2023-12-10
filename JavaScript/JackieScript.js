@@ -41,7 +41,7 @@ document.querySelector('.reservation-button').addEventListener('click', confirmR
 function showConfirmationAlert(message) {
   document.querySelector('.reservation-button').addEventListener('click', function() {
     if (confirm(message)) {
-      window.location.href = 'PricesAndPackages.html';
+      window.location.href = 'Rulebook.html';
     }
   });
 }
