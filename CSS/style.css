@@ -38,6 +38,10 @@ body{
 	  z-index: 1;
 }
 
+#hiddenMessage {
+  display: none;
+}
+
 /*NAVBAR*/
 .nav_bar header{
     position: relative;

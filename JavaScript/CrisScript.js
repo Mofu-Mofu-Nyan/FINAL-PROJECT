@@ -37,6 +37,7 @@ function toggleText(text) {
     }
 }
 
+
 function toggleMessage() {
     var message = document.getElementById("hiddenMessage");
 
@@ -46,6 +47,8 @@ function toggleMessage() {
         message.style.display = "none";
     }
 }
+
+
 
 
 
